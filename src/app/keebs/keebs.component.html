@@ -1,0 +1,8 @@
+<h2>Current Group Buys</h2>
+<ul class="keebs">
+  <li *ngFor="let keeb of keebs">
+    <a routerLink="/detail/{{keeb.id}}">
+              {{keeb.name}}
+    </a>
+  </li>
+</ul>

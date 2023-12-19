@@ -1,0 +1,8 @@
+<div *ngIf="keeb">
+    <h2>{{keeb.name}} Details</h2>
+    <div><span>Price: </span>{{keeb.price}}</div>
+    <div><span>Mounting Style: </span>{{keeb.mountstyle}}</div>
+    <button type="button" (click)="addToCart(keeb)">Buy</button>
+    <button type="button" (click)="goBack()">Go back</button>
+
+  </div>
